@@ -291,7 +291,7 @@ body {
 }
 
 #section-1 {
-  background: url("../../assets/img/tło_header_strona_główna.png") top / auto no-repeat;
+  background: url("../../assets/img/tło_header_strona_główna.png") bottom / auto no-repeat;
   border-top-style: none;
   border-bottom-style: none;
   border-left-style: none;
