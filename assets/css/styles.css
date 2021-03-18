@@ -1035,7 +1035,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 @media (min-width: 300px) {
   footer p {
     color: #000;
-    font-size: 9px;
+    font-size: 14px;
     margin-bottom: 5px;
     text-align: center;
   }
@@ -1090,6 +1090,13 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   .footer-fast-contact img {
     width: 30px;
     margin-right: 10px;
+  }
+}
+
+@media (min-width: 300px) {
+  .footer-fast-contact .d-block {
+    margin-bottom: 5px;
+    text-align: center;
   }
 }
 
@@ -1323,6 +1330,17 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   }
 }
 
+@media (min-width: 300px) {
+  footer h3 {
+    color: #000;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 16px;
+    margin-top: 17px;
+  }
+}
+
 @media (min-width: 768px) {
   footer h3 {
     color: #fff;
@@ -1476,5 +1494,10 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   #contact-section-image {
     display: block;
   }
+}
+
+.footer-bottom {
+  padding-bottom: 10px;
+  padding-top: 30px;
 }
 
