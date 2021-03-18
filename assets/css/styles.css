@@ -1527,3 +1527,20 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 .bstyle1:hover {
 }
 
+.btn {
+  border-radius: 40px;
+  font-size: 14px;
+}
+
+.btn-danger {
+  color: #fff;
+  background-color: #fc3041;
+  border-color: #fc3041;
+}
+
+.btn-light {
+  color: #fff;
+  background-color: #fc3041;
+  border-color: #fc3041;
+}
+
