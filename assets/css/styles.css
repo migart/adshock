@@ -1032,6 +1032,15 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   }
 }
 
+@media (min-width: 300px) {
+  footer p {
+    color: #000;
+    font-size: 9px;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+}
+
 @media (min-width: 768px) {
   footer p {
     color: #fff;
