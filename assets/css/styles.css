@@ -78,10 +78,6 @@ body {
   transition: background-color 0.25s;
 }
 
-.navigation-clean-search .action-button:hover, .navigation-clean-search .action-button:focus {
-  background: #66d7d7;
-}
-
 .navigation-clean-search .form-inline label {
   color: #ccc;
 }
@@ -209,7 +205,7 @@ body {
   .text-right.d-inline.section-title {
     font-size: 45px;
     position: relative;
-    right: -60px;
+    right: -100px;
     font-weight: 900;
   }
 }
@@ -342,10 +338,11 @@ body {
 
 @media (min-width: 1200px) {
   .container.section-text p {
-    width: 320px;
+    width: auto;
     color: #7f7f7f;
     font-size: 14px;
     font-weight: 300;
+    text-align: left;
   }
 }
 
@@ -575,7 +572,8 @@ p {
 
 @media (min-width: 1200px) {
   .d-inline.column-icon {
-    width: 80px;
+    width: 50px;
+    height: 50px;
     margin-bottom: 10px;
   }
 }
@@ -890,6 +888,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 @media (min-width: 1200px) {
   .column-title {
     font-size: 16px;
+    text-align: left;
   }
 }
 
@@ -1231,6 +1230,16 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   }
 }
 
+@media (min-width: 1200px) {
+  #section-6 .row.section-6-blocks {
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+  }
+}
+
 @media (min-width: 768px) {
   #section-6 .row.section-6-blocks {
     margin-top: 40px;
@@ -1418,9 +1427,6 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   }
 }
 
-.btn:not(:disabled):not(.disabled) {
-}
-
 @media (min-width: 300px) {
   section h2 {
     font-size: 18px;
@@ -1455,7 +1461,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 }
 
 .section-3-desc {
-  text-align: center;
+  /*text-align: center;*/
 }
 
 @media (min-width: 1200px) {
@@ -1499,7 +1505,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 @media (min-width: 300px) {
   .footer-bottom p {
     padding-bottom: 0px;
-    padding-top: 20px;
+    padding-top: 10px;
     font-size: 8px;
   }
 }
@@ -1512,8 +1518,12 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   }
 }
 
-.navbar-light .navbar-toggler {
-  color: rgba(0,0,0,.5);
-  border-color: rgba(0,0,0,.1);
+.post-button:hover, .baner-button:hover {
+  background-color: transparent;
+  cursor: pointer;
+  opacity: .5;
+}
+
+.bstyle1:hover {
 }
 
