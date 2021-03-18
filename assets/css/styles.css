@@ -1056,6 +1056,13 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   }
 }
 
+@media (min-width: 300px) {
+  .footer-fast-contact img {
+    width: 12px;
+    margin-right: 10px;
+  }
+}
+
 @media (min-width: 768px) {
   .footer-fast-contact img {
     width: 12px;
